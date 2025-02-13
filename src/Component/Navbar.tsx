@@ -3,14 +3,15 @@ import { useCartStore } from "@/store/cartStore";
 import { FaShoppingCart } from "react-icons/fa";
 
 export default function Navbar() {
-    const { cart } = useCartStore();
+    
+    const { cart } = useCartStore(); { /*to fetch the cart items to assist counting*/ }
 
     const cartItemCount = cart.length;
 
     return (
         <>
             <nav className="bg-gray-900 text-white p-4 flex justify-between items-center">
-                {/* Main logo or title */}
+               
                 <Link href="/" className="text-lg font-semibold hover:underline">
                     Inventory Management System
                 </Link>
