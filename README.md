@@ -8,7 +8,7 @@ A modern, minimalistic **Inventory Management System** built with **Next.js**, *
 ✅ **Dynamic Inventory & Cart System**  
 ✅ **Toast Notifications with react-hot-toast**  
 ✅ **Modern UI with Tailwind CSS**  
-✅ **Mock API with 50 Products**  
+✅ **Mock API with vast number of products**  
 
 ---
 
